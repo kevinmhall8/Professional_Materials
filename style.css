@@ -1,0 +1,93 @@
+body {
+    background-image: url("images/repeated-square-dark.png");
+
+}
+
+.navbar {
+    background-color: purple;
+}
+
+
+
+#mug {
+    max-height: 260px;
+    align-items: right;
+    border-bottom: 5px solid grey;
+    border-left: 5px solid grey;
+}
+
+.profile-pic {
+    align-items: right;
+}
+
+.bio-and-pic {
+    display: flex;
+}
+
+.hero {
+    width:100%;
+    height:100%;
+    font-weight:bold;
+  }
+  
+  /* @keyframes myanimation {
+    25% {background-color: purple;}
+    25%{background-color:darkblue;}
+    25%{background-color:black;}
+    25%{background-color: #130022;}
+
+  } */
+
+  h2 {
+      font-size: 32px;
+      color: white;
+  }
+
+  p {
+      color: white;
+  }
+
+.image {
+    max-height: 300px;
+    width: 400px;
+    border: 2px solid#ffc700;
+}
+
+h3 {
+    font-size: 28px;
+    color: white;
+}
+
+.space-filler {
+    height: 600px;
+}
+
+#contact {
+    border: 2px solid grey;
+    max-width: 600px;
+    width:100%;
+    height:100%;
+    font-weight:bold;
+    background-color: #130022;
+    animation: myanimation 10s infinite;
+  }
+  
+  @keyframes myanimation {
+    25%{background-color: violet;}
+    25%{background-color:darkblue;}
+    25%{background-color:black;}
+    25%{background-color: #130022;}
+
+  }
+
+  label {
+      color: white;
+  }
+
+textarea {
+    display: flex;
+}
+
+input {
+    display: flex;
+}
