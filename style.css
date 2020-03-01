@@ -3,12 +3,6 @@ body {
 
 }
 
-.navbar {
-    background-color: purple;
-}
-
-
-
 #mug {
     max-height: 260px;
     align-items: right;
@@ -48,9 +42,13 @@ body {
   }
 
 .image {
-    max-height: 300px;
-    width: 400px;
+    max-height: 210px;
+    width: 280px;
     border: 2px solid#ffc700;
+}
+
+.nav-header {
+    border-bottom: 2px solid grey;
 }
 
 h3 {
@@ -72,22 +70,15 @@ h3 {
     animation: myanimation 10s infinite;
   }
   
-  @keyframes myanimation {
-    25%{background-color: violet;}
-    25%{background-color:darkblue;}
-    25%{background-color:black;}
-    25%{background-color: #130022;}
-
-  }
-
   label {
       color: white;
   }
 
-textarea {
-    display: flex;
-}
 
 input {
     display: flex;
+}
+
+.notification {
+    background-color: #130022;
 }
